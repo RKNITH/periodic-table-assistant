@@ -36,7 +36,7 @@ const speakFun = (input) => {
 };
 
 // Function to handle voice commands related to the periodic table
-const handlePeriodicTableCommands = (command) => {
+const handleCommands = (command) => {
     if (command.includes("आवर्त सारणी") || command.includes("periodic table")) {
         // Speak the basic introduction of the periodic table
         speakFun(periodicTableData.introduction);
